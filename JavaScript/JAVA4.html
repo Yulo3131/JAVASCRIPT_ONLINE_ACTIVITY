@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <P>JOHN GABRIEL B. YULO.</P>
+  <input type="text" id="userInput" placeholder="Type something...">
+  <button onclick="showInput()">Submit</button>
+  <p id="display"></p>
+
+  <script>
+    function showInput() {
+      let text = document.getElementById("userInput").value;
+      document.getElementById("display").innerText = "You typed: " + text;
+    }
+  </script>
+</body>
+</html>
